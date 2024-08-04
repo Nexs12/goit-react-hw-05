@@ -1,0 +1,26 @@
+.container {
+  text-align: center;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  & button {
+    color: black;
+    padding: 10px;
+  }
+}
+
+.input {
+  border: 1px solid black;
+  outline: none;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  color: black;
+}
+
+.button {
+  border: 1px solid black;
+  border-radius: 8px;
+}
